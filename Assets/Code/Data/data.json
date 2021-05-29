@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Health",
+    "BaseValue": 100.0,
+    "CurrentValue": 110.0,
+    "MaxValue": 500.0,
+    "CurrentLevel": 1,
+    "MaxLevel": 10
+  },
+  {
+    "Name": "Speed",
+    "BaseValue": 250.0,
+    "CurrentValue": 500.0,
+    "MaxValue": 550.0,
+    "CurrentLevel": 1,
+    "MaxLevel": 1
+  },
+  {
+    "Name": "Firerate",
+    "BaseValue": 1.25,
+    "CurrentValue": 1.125,
+    "MaxValue": 0.1,
+    "CurrentLevel": 1,
+    "MaxLevel": 10
+  }
+]
