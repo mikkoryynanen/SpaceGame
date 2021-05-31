@@ -10,5 +10,10 @@ public class Entity : EntityMover
         Stat health = _statsContainer.GetStat(StatType.Health);
 
         Debug.Log($"Loaded {health.CurrentValue} health");
-    }    
+    }  
+
+    public void ResetStats()
+    {
+       _statsContainer.Reset();
+    }
 }

@@ -21,7 +21,7 @@ public class Projectile : Entity
             IDamageable damageable = hit.collider.GetComponent<IDamageable>();
             if (damageable != null)
             {
-                damageable.TakeDamage(25);
+                damageable.TakeDamage(50);
             }
 
             gameObject.SetActive(false);
